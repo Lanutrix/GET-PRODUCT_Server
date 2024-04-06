@@ -1,0 +1,27 @@
+services:
+  database:
+    image: postgres
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      POSTGRES_USER: ""
+      POSTGRES_PASSWORD: ""
+      POSTGRES_DB: ""
+    networks:
+      - db_network
+  backend:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - database
+    networks:
+      - db_network
+
+
+
+networks:
+  db_network:
+    driver: overlay
+    attachable: true
