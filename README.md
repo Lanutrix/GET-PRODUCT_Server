@@ -30,6 +30,4 @@
 GetProduct - ваш персональный ассистент в выборе безопасных продуктов, который поможет вам принимать осознанные решения о вашем питании.
 
 
-Этот репозиторий является backend частью мобильного приложения [GetProduct](https://github.com/LavDaDi/GET-PRODUCT)
-
-
+Этот репозиторий является backend частью мобильного приложения [GetProduct](https://github.com/LavDaDi/GET-PRODUCT), документация к [API](DOCS.md)

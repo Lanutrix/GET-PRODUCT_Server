@@ -29,4 +29,4 @@ We wanted to create a mobile application that would assist people with allergies
 
 GetProduct - your personal assistant in choosing safe products, which will help you make informed decisions about your diet.
 
-This repository is the backend part of the mobile application [GetProduct](https://github.com/LavDaDi/GET-PRODUCT).
+This repository is the backend part of the mobile application [GetProduct](https://github.com/LavDaDi/GET-PRODUCT), documentation for [API](DOCS.md)
